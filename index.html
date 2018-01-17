@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link rel="apple-touch-icon" href="./favicon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="http://apmyp.pro/">
+  <title>Привет! | apmyp.pro</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://apmyp.pro/">
+  <meta property="og:title" content="О apmyp.pro">
+  <meta property="og:image" content="https://apmyp.pro/apmyp.jpg">
+  <meta property="og:description" content="Страничка фулстэк-разработчика">
+  <meta property="og:site_name" content="О apmyp.pro">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@apmyp0">
+  <meta name="twitter:creator" content="@apmyp0">
+  <meta name="twitter:url" content="https://apmyp.pro/">
+  <meta name="twitter:title" content="О apmyp.pro">
+  <meta name="twitter:description" content="Страничка фулстэк-разработчика">
+  <meta name="twitter:image" content="https://apmyp.pro/apmyp.jpg">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css">
+  <style>
+    html,
+    body {
+      font-size: 8px;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 5rem;
+    }
+
+    main {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    p {
+      font-size: 2rem;
+    }
+
+    p.muted {
+      color: #ccc;
+      font-style: italic;
+    }
+
+    p.small {
+      font-size: 1.875rem;
+    }
+
+    p.muted a {
+      color: #ccc;
+      transition: 0.2s;
+    }
+
+    p.muted a:hover {
+      color: #ddd;
+    }
+
+    a.telegram:before {
+      content: " ";
+      background: url(./telegram.png) no-repeat;
+      background-size: 12px 12px;
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      margin: 0 0.5rem;
+      position: relative;
+      top: 2px;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    #logo {
+      margin-top: 3rem;
+    }
+
+    @media(min-width: 992px) {
+      main {
+        padding: 0;
+        margin-top: 0;
+        height: 100vh;
+      }
+
+      #logo {
+        margin-top: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <div class="row">
+        <div class="col-xs-12 col-md-8">
+          <h1>Привет!</h1>
+          <p>Я —
+            <a href="https://moikrug.ru/apmyp0" rel="noopener noreferrer" target="_blank">Артур Борденюк</a> и Fullstack разработчик.</p>
+          <p>ReactJS • VueJS • Rails</p>
+          <p>&nbsp;</p>
+          <p>Для связи есть
+            <a class="telegram" href="https://t.me/apmyp0" rel="noopener noreferrer" target="_blank">телеграм</a>
+          </p>
+          <p class="muted small">Кстати, ещё я веду
+            <a class="telegram" href="https://t.me/magnificent_apmyp" rel="noopener noreferrer" target="_blank">телеграм канал</a> о разработке.</p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <img id="logo" src="./apmyp.jpg" alt="">
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
